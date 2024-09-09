@@ -41,7 +41,7 @@ This project was first done and finished in a different repo to this one (42 cam
 
 In the following pdf you can find the project requirements as specified by 42 campus: [README_PUSH_SWAP.pdf](https://github.com/Alvicina/PUSH_SWAP/files/15310128/README_PUSH_SWAP.pdf)
 
-The following snapshot if proof that the project was succesfully done: 
+The following snapshot is proof that the project was succesfully done: 
 ![Screenshot from 2024-09-09 12-11-14](https://github.com/user-attachments/assets/fcc40ce3-5ec5-4a02-969a-08848ca2beab)
 
 
