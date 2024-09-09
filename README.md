@@ -1,39 +1,31 @@
 The aim of this project is to sort data on a stack, with a limited set of instructions, and the smallest number of moves. In order to do this, we need to implement a sorting algorithm that will sort the data using up to a max number of instruction. The set of instructions that can be used is the following:
 
 sa (swap a): Swap the first 2 elements at the top of stack a.
-
 Do nothing if there is only one or no elements.
 
 sb (swap b): Swap the first 2 elements at the top of stack b.
-
 Do nothing if there is only one or no elements.
 
 ss : sa and sb at the same time.
 
 pa (push a): Take the first element at the top of b and put it at the top of a.
-
 Do nothing if b is empty.
 
 pb (push b): Take the first element at the top of a and put it at the top of b.
-
 Do nothing if a is empty.
 
 ra (rotate a): Shift up all elements of stack a by 1.
-
 The first element becomes the last one.
 
 rb (rotate b): Shift up all elements of stack b by 1.
-
 The first element becomes the last one.
 
 rr : ra and rb at the same time.
 
 rra (reverse rotate a): Shift down all elements of stack a by 1.
-
 The last element becomes the first one.
 
 rrb (reverse rotate b): Shift down all elements of stack b by 1.
-
 The last element becomes the first one.
 
 rrr : rra and rrb at the same time.
@@ -45,5 +37,13 @@ The program needs to behave as the example provided below:
 The algorithm used to sort the data is called "radix algorithm". I chose this algorithm due to the fact that it is very stable and relatively easy to implement:
 https://www.geeksforgeeks.org/radix-sort/
 
+This project was first done and finished in a different repo to this one (42 camps provides us with independent repos for each project). Once finished, the project was then copied to my personal repo in gitHub.
 
-[README_PUSH_SWAP.pdf](https://github.com/Alvicina/PUSH_SWAP/files/15310128/README_PUSH_SWAP.pdf)
+In the following pdf you can find the project requirements as specified by 42 campus: [README_PUSH_SWAP.pdf](https://github.com/Alvicina/PUSH_SWAP/files/15310128/README_PUSH_SWAP.pdf)
+
+The following snapshot if proof that the project was succesfully done: 
+![Screenshot from 2024-09-09 12-11-14](https://github.com/user-attachments/assets/fcc40ce3-5ec5-4a02-969a-08848ca2beab)
+
+
+
+
